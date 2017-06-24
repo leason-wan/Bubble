@@ -1,0 +1,62 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    text-align: center;
+    color: #ffe171;
+    font-size: 40px;
+}
+
+#screen {
+    width: 800px;
+    height: 640px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #E0EEEE;
+}
+
+#inner {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.bubble_one {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-image: url('./image/blue.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.bubble_two {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-image: url('./image/blue.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.bubble_three {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url('./image/blue.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.bubble_red {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url('./image/red.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
